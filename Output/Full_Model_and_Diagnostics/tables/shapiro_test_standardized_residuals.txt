@@ -1,0 +1,6 @@
+
+	Shapiro-Wilk normality test
+
+data:  rstandard(full_model)
+W = 0.87612, p-value < 2.2e-16
+

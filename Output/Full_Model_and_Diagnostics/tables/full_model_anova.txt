@@ -1,0 +1,13 @@
+Analysis of Variance Table
+
+Response: price_unit_area
+                      Df Sum Sq Mean Sq  F value    Pr(>F)    
+transaction_date       1    586     586   7.4666  0.006559 ** 
+house_age              1   3441    3441  43.8575 1.119e-10 ***
+distance_mrt           1  34857   34857 444.2919 < 2.2e-16 ***
+n_convenience_stores   1   3576    3576  45.5812 5.064e-11 ***
+latitude               1   2065    2065  26.3192 4.488e-07 ***
+longitude              1      5       5   0.0655  0.798203    
+Residuals            407  31931      78                       
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

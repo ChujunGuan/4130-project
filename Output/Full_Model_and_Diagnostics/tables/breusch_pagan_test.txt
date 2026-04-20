@@ -1,0 +1,6 @@
+
+	studentized Breusch-Pagan test
+
+data:  full_model
+BP = 8.4674, df = 6, p-value = 0.2058
+

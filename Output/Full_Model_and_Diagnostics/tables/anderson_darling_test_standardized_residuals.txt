@@ -1,0 +1,6 @@
+
+	Anderson-Darling normality test
+
+data:  rstandard(full_model)
+A = 6.3634, p-value = 1.213e-15
+

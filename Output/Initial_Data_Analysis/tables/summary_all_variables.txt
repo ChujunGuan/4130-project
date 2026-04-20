@@ -1,0 +1,14 @@
+       id        transaction_date   house_age       distance_mrt    
+ Min.   :  1.0   Min.   :2013     Min.   : 0.000   Min.   :  23.38  
+ 1st Qu.:104.2   1st Qu.:2013     1st Qu.: 9.025   1st Qu.: 289.32  
+ Median :207.5   Median :2013     Median :16.100   Median : 492.23  
+ Mean   :207.5   Mean   :2013     Mean   :17.713   Mean   :1083.89  
+ 3rd Qu.:310.8   3rd Qu.:2013     3rd Qu.:28.150   3rd Qu.:1454.28  
+ Max.   :414.0   Max.   :2014     Max.   :43.800   Max.   :6488.02  
+ n_convenience_stores    latitude       longitude     price_unit_area 
+ Min.   : 0.000       Min.   :24.93   Min.   :121.5   Min.   :  7.60  
+ 1st Qu.: 1.000       1st Qu.:24.96   1st Qu.:121.5   1st Qu.: 27.70  
+ Median : 4.000       Median :24.97   Median :121.5   Median : 38.45  
+ Mean   : 4.094       Mean   :24.97   Mean   :121.5   Mean   : 37.98  
+ 3rd Qu.: 6.000       3rd Qu.:24.98   3rd Qu.:121.5   3rd Qu.: 46.60  
+ Max.   :10.000       Max.   :25.01   Max.   :121.6   Max.   :117.50  

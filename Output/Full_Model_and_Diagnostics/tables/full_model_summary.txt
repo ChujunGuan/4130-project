@@ -1,0 +1,26 @@
+
+Call:
+lm(formula = price_unit_area ~ transaction_date + house_age + 
+    distance_mrt + n_convenience_stores + latitude + longitude, 
+    data = dat)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-35.667  -5.412  -0.967   4.217  75.190 
+
+Coefficients:
+                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          -1.444e+04  6.775e+03  -2.132  0.03364 *  
+transaction_date      5.149e+00  1.557e+00   3.307  0.00103 ** 
+house_age            -2.697e-01  3.853e-02  -7.000 1.06e-11 ***
+distance_mrt         -4.488e-03  7.180e-04  -6.250 1.04e-09 ***
+n_convenience_stores  1.133e+00  1.882e-01   6.023 3.83e-09 ***
+latitude              2.255e+02  4.457e+01   5.059 6.38e-07 ***
+longitude            -1.243e+01  4.858e+01  -0.256  0.79820    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.858 on 407 degrees of freedom
+Multiple R-squared:  0.5824,	Adjusted R-squared:  0.5762 
+F-statistic:  94.6 on 6 and 407 DF,  p-value: < 2.2e-16
+
